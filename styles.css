@@ -214,6 +214,12 @@ img {
 
     border-collapse: collapse; /* Remove o espaço entre as células */
 }
+@media (max-width: 751px) {
+    .players-stats table{
+        max-width: 10%;
+        margin: 0 auto;
+    }
+}
 .players-stats table td{
     border-bottom: 2px solid rgb(78, 9, 143);
     border-right: 2px solid rgb(78, 9, 143);
@@ -297,7 +303,7 @@ img {
 }
 @media (max-width: 751px) {
     .Vasco p{
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
@@ -307,7 +313,20 @@ img {
 }
 
 .player-info img{
-    width: 500px;
+    border: #0a0a0a solid 2px;
+}
+@media (max-width: 751px) {
+    .player-info img{
+        min-width: 100%;
+    }
+}
+.player-info h1{
+    width: 100%;
+}
+@media (max-width: 751px) {
+    .player-info h1{
+        font-size: 14px;
+    }
 }
 .main-players{
     margin: auto;
