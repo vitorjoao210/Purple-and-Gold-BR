@@ -39,7 +39,11 @@ main {
     width: 70%;
     background-color:#ffffff;
     padding: 25px;
-    
+}
+@media (max-width: 443px) {
+    main {
+        width: 100%;
+    }
 }
 
 article {
