@@ -255,12 +255,6 @@ img {
     
 }   
 
-.ficha-jogador img{
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    
-}
-
 .ficha-jogador{
     flex: 1;
     align-items: center;
@@ -270,7 +264,7 @@ img {
 }
 @media (max-width: 751px) {
     .player-info {
-        width: 50%;
+        width: 600px;
     }
 }
 
@@ -280,10 +274,9 @@ img {
     color: #FDB927;;
     background-color: rgb(78, 9, 143);
     margin-bottom: 0px;
-    padding-bottom: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    
+    padding-bottom: 10px;
+    padding-top:10px;
+    font-size: 20px;
 }
 
 .Vasco{
@@ -304,7 +297,7 @@ img {
 }
 @media (max-width: 751px) {
     .Vasco p{
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
