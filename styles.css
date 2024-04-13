@@ -36,9 +36,10 @@ button{
 }
 main {
     margin: auto;
-    width: 70%;
+    width: 72%;
     background-color:#ffffff;
     padding: 25px;
+    
 }
 @media (max-width: 443px) {
     main {
@@ -95,6 +96,7 @@ h1{
     padding-left: 10px;
     text-align: center;
     margin : auto;
+
 }
 
 .imagem-jogos img{
@@ -266,7 +268,11 @@ img {
     width: 90%;
     
 }
-
+@media (max-width: 751px) {
+    .player-info {
+        width: 50%;
+    }
+}
 .player-info h1{
     display: block;
     text-align: center;
@@ -276,7 +282,6 @@ img {
     padding-bottom: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    
 }
 
 .Vasco{
@@ -285,7 +290,7 @@ img {
     flex-direction: column;
     margin-left: 0%;
     width: 100%;
- 
+
 }
 
 .Vasco p{
@@ -295,6 +300,12 @@ img {
     margin-top: 5%;
     
 }
+@media (max-width: 751px) {
+    .Vasco p{
+        font-size: smaller;
+        border: #0a0a0a solid 2px;
+    }
+}
 
 .player-info{
     width: 500px;
@@ -303,4 +314,16 @@ img {
 
 .player-info img{
     width: 500px;
+}
+.main-players{
+    margin: auto;
+    width: 72%;
+    background-color:#ffffff;
+    padding: 25px;
+}
+@media (max-width: 751px) {
+    .main-players{
+        width: 100%;
+        
+    }
 }
